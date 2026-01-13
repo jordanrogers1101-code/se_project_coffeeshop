@@ -17,12 +17,15 @@
   position: relative;
   height: 800px;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
 }
 
 .header__title {
   max-width: 729px;
   margin: 183px 0 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -33,6 +36,9 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
   color: #3f96f3;
 }
 
@@ -40,6 +46,8 @@
   max-width: 683px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -49,7 +57,7 @@
   width: 646px;
   height: 568px;
   top: 124px;
-  right: -5px;
+  right: 5px;
 }
 
 .header__footer {
@@ -57,6 +65,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -84,6 +94,8 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -104,6 +116,7 @@
   margin: 0 0 24px;
   max-width: 580px;
   font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -113,6 +126,8 @@
   margin: 0 0 80px;
   max-width: 438px;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
