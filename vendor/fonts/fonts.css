@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  src: url(./Inter-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
+  src: url(./NotoSerif-Italic.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  src: url(./Inter-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+  src: url(./Inter-Regular.woff2) format("woff2");
+}
