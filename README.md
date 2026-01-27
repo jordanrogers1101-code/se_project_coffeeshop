@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add different thing to do becaus after awhile the tasks seem repetitive even if they are supposed to it should challenge all of the things we have learned instead of just a few of them.

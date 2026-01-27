@@ -14,8 +14,7 @@
       content="coffee, cafe, pastries, espresso, latte, cappuccino, bakery"
     />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -62,11 +61,9 @@
         />
         <div class="header__footer">
           <div>
-            <div class="header__paragraph">Hours:</div>
-            <div class="header__paragraph">Monday – Friday (10:00 – 19:00)</div>
-            <div class="header__paragraph">
-              Saturday – Sunday (11:00 – 18:00)
-            </div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
           <div class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
@@ -178,6 +175,7 @@
             >
               <input
                 type="checkbox"
+                required
                 class="form__checkbox"
                 id="terms-checkbox"
               />
@@ -290,15 +288,25 @@
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">
-                  <img src="./images/images/facebook_white.svg" alt="Facebook Logo" class="footer__social-icon">
+                  <img
+                    src="./images/images/facebook_white.svg"
+                    alt="Facebook Logo"
+                    class="footer__social-icon"
+                  />
                   Facebook
                 </a>
               </li>
-              <li class="footer__list-item"><a href="#" class="footer__social-link">
-                <img src="./images/images/instagram_white.svg" alt="Instagram Logo" class="footer__social-icon">
-                Instagram
-              </a>
-            </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/images/instagram_white.svg"
+                    alt="Instagram Logo"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <p class="footer__copyright">&copy; 2023 Jordan R.</p>
