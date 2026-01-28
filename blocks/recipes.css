@@ -1,5 +1,5 @@
 .recipes {
-  background-image: url("../images/images/background_recipes.svg") no-repeat
+  background: url("../images/images/background_recipes.svg") no-repeat
     center/cover #0a2750;
   color: #ffffff;
   margin: 0;
